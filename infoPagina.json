@@ -1,0 +1,68 @@
+{
+    "Sea of Thieves": {
+        "nombre": "Sea of Thieves",
+        "duracion": "62\u00bd Hours",
+        "puntuacion": "69",
+        "precio1": "19995",
+        "precio2": "12250",
+        "descuento1": "No disponible",
+        "descuento2": "No disponible",
+        "precioox": null,
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVBs3Hjb4q9SljHWHimKhvTrrH98YRKdeQYJyFTHFLje8w5MzOYZdezmghYw&s"
+    },
+    "Rust": {
+        "nombre": "Rust",
+        "duracion": "37 Hours",
+        "puntuacion": "69",
+        "precio1": "14995",
+        "precio2": "7950",
+        "descuento1": "No disponible",
+        "descuento2": "No disponible",
+        "precioox": null,
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnnqHzhoOcaqyNFyRlnuR-gSoPSlsL8Acai3l14_TOfWdiTC6RYngt_c1EDw&s"
+    },
+    "Terraria": {
+        "nombre": "Terraria",
+        "duracion": "102 Hours",
+        "puntuacion": "81",
+        "precio1": "17475",
+        "precio2": "2300",
+        "descuento1": "No disponible",
+        "descuento2": "No disponible",
+        "precioox": null,
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiVJLCBya4WwpyoxpihaomC9f7Am5lKHSBym7XH9rOrhnF73jWlYjZJHGmlzY&s"
+    },
+    "Red Dead Redemption 2": {
+        "nombre": "Red Dead Redemption 2",
+        "duracion": "50\u00bd Hours",
+        "puntuacion": "97",
+        "precio1": "13095",
+        "precio2": "13995",
+        "descuento1": "No disponible",
+        "descuento2": "No disponible",
+        "precioox": null,
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVU1o9P51hfkJ1apD1n8jFD2yypJKVX0ip13gMmMn5_ll7zuKD1xkIlUT1yw&s"
+    },
+    "Subnautica": {
+        "nombre": "Subnautica",
+        "duracion": "30 Hours",
+        "puntuacion": "87",
+        "precio1": "10995",
+        "precio2": "8225",
+        "descuento1": "No disponible",
+        "descuento2": "No disponible",
+        "precioox": null,
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPEaEWd0DF7IZIHXvcC2wBTRvMnrFhk-AKt-An7QpRqC8I8Fhvg6SAimPj1w&s"
+    },
+    "Elden Ring": {
+        "nombre": "Elden Ring",
+        "duracion": "59\u00bd Hours",
+        "puntuacion": "96",
+        "precio1": "24970",
+        "precio2": "26000",
+        "descuento1": "No disponible",
+        "descuento2": "No disponible",
+        "precioox": null,
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRWSpwNENCYSz4YH2l6oS4OIYqlCR4cTNaQAWs1qSW5tu4GF9WzAO7CuB9xUo&s"
+    }
+}

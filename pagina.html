@@ -1,0 +1,228 @@
+
+    <html>
+    <head>
+        <title>InforJuegos</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-image: url('https://i.pinimg.com/originals/ec/b6/41/ecb6416c16b66e9e5409def9271224a2.gif');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                margin: 20px;
+            }
+            .juego {
+                background-color: rgba(255, 255, 255, 0.8);
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                margin: 10px;
+                padding: 20px;
+                width: calc(33% - 40px);
+                box-sizing: border-box;
+            }
+            .juego h2 {
+                font-size: 1.5em;
+                margin-top: 0;
+            }
+            .juego p {
+                margin: 0.5em 0;
+            }
+            .juego img {
+                max-width: 100%;
+                height: auto;
+                margin-bottom: 10px;
+            }
+            .section {
+                margin: 20px;
+            }
+            .button {
+                display: inline-block;
+                padding: 10px 20px;
+                font-size: 1em;
+                color: #fff;
+                background-color: #007BFF;
+                border: none;
+                border-radius: 5px;
+                text-decoration: none;
+                margin: 20px;
+            }
+            .button:hover {
+                background-color: #0056b3;
+            }
+
+            h1 {
+                text-align: center;
+                font-size: 2.5em; /* Tamaño de la letra */
+                color: #ffffff; /* Color de la letra */
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+                margin-top: 20px; /* Espaciado superior */
+                margin-bottom: 20px; /* Espaciado inferior */
+                font-family: 'Courier New', Courier, monospace; /* Fuente de la letra */
+            }
+
+            h3 {
+                text-align: left;
+                font-size: 2.0em; /* Tamaño de la letra */
+                color: #ffffff; /* Color de la letra */
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+                margin-top: 20px; /* Espaciado superior */
+                margin-bottom: 20px; /* Espaciado inferior */
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Fuente de la letra */
+            }
+        </style>
+
+
+        <script>
+            function mostrarCatalogo() {
+                document.getElementById('catalogo').style.display = 'block';
+                document.getElementById('juegosAleatorios').style.display = 'none';
+            }
+
+            function volverPaginaPrincipal() {
+                document.getElementById('catalogo').style.display = 'none';
+                document.getElementById('juegosAleatorios').style.display = 'block';
+            }
+
+        </script>
+
+
+    </head>
+
+
+
+
+
+
+
+
+
+    <body>
+
+        <h1 style="text-align:center;">Game Wiki</h1>
+
+
+        <div id="juegosAleatorios" class="section">
+            <h3>Juegos Aleatorios</h3>
+            <div class="container">
+    
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVBs3Hjb4q9SljHWHimKhvTrrH98YRKdeQYJyFTHFLje8w5MzOYZdezmghYw&s" alt="Portada de Sea of Thieves">
+            <h2>Sea of Thieves</h2>
+            <p>Duracion: 62� Hours</p>
+            <p>Puntuacion: 69</p>
+            <p>Precio Amazon: 19995</p>
+            <p>Precio Steam: 12250</p>
+            <p>Descuento Amazon: No disponible</p>
+            <p>Descuento Steam: No disponible</p>
+        </div>
+        
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRWSpwNENCYSz4YH2l6oS4OIYqlCR4cTNaQAWs1qSW5tu4GF9WzAO7CuB9xUo&s" alt="Portada de Elden Ring">
+            <h2>Elden Ring</h2>
+            <p>Duracion: 59� Hours</p>
+            <p>Puntuacion: 96</p>
+            <p>Precio Amazon: 24970</p>
+            <p>Precio Steam: 26000</p>
+            <p>Descuento Amazon: No disponible</p>
+            <p>Descuento Steam: No disponible</p>
+        </div>
+        
+            </div>
+            <button class="button" onclick="mostrarCatalogo()">Ver Catalogo Completo</button>
+        </div>
+
+
+
+
+
+
+
+        <div id="catalogo" class="section" style="display:none;">
+            <h3>Catalogo Completo</h3>
+            <div class="container">
+    
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVBs3Hjb4q9SljHWHimKhvTrrH98YRKdeQYJyFTHFLje8w5MzOYZdezmghYw&s" alt="Portada de Sea of Thieves">
+            <h2>Sea of Thieves</h2>
+            <p>Duracion: 62� Hours</p>
+            <p>Puntuacion: 69</p>
+            <p>Precio Amazon: 19995</p>
+            <p>Precio Steam: 12250</p>
+            <p>Descuento Amazon: No disponible</p>
+            <p>Descuento Steam: No disponible</p>
+        </div>
+        
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnnqHzhoOcaqyNFyRlnuR-gSoPSlsL8Acai3l14_TOfWdiTC6RYngt_c1EDw&s" alt="Portada de Rust">
+            <h2>Rust</h2>
+            <p>Duracion: 37 Hours</p>
+            <p>Puntuacion: 69</p>
+            <p>Precio Amazon: 14995</p>
+            <p>Precio Steam: 7950</p>
+            <p>Descuento Amazon: No disponible</p>
+            <p>Descuento Steam: No disponible</p>
+        </div>
+        
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiVJLCBya4WwpyoxpihaomC9f7Am5lKHSBym7XH9rOrhnF73jWlYjZJHGmlzY&s" alt="Portada de Terraria">
+            <h2>Terraria</h2>
+            <p>Duracion: 102 Hours</p>
+            <p>Puntuacion: 81</p>
+            <p>Precio Amazon: 17475</p>
+            <p>Precio Steam: 2300</p>
+            <p>Descuento Amazon: No disponible</p>
+            <p>Descuento Steam: No disponible</p>
+        </div>
+        
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVU1o9P51hfkJ1apD1n8jFD2yypJKVX0ip13gMmMn5_ll7zuKD1xkIlUT1yw&s" alt="Portada de Red Dead Redemption 2">
+            <h2>Red Dead Redemption 2</h2>
+            <p>Duracion: 50� Hours</p>
+            <p>Puntuacion: 97</p>
+            <p>Precio Amazon: 13095</p>
+            <p>Precio Steam: 13995</p>
+            <p>Descuento Amazon: No disponible</p>
+            <p>Descuento Steam: No disponible</p>
+        </div>
+        
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPEaEWd0DF7IZIHXvcC2wBTRvMnrFhk-AKt-An7QpRqC8I8Fhvg6SAimPj1w&s" alt="Portada de Subnautica">
+            <h2>Subnautica</h2>
+            <p>Duracion: 30 Hours</p>
+            <p>Puntuacion: 87</p>
+            <p>Precio Amazon: 10995</p>
+            <p>Precio Steam: 8225</p>
+            <p>Descuento Amazon: No disponible</p>
+            <p>Descuento Steam: No disponible</p>
+        </div>
+        
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRWSpwNENCYSz4YH2l6oS4OIYqlCR4cTNaQAWs1qSW5tu4GF9WzAO7CuB9xUo&s" alt="Portada de Elden Ring">
+            <h2>Elden Ring</h2>
+            <p>Duracion: 59� Hours</p>
+            <p>Puntuacion: 96</p>
+            <p>Precio Amazon: 24970</p>
+            <p>Precio Steam: 26000</p>
+            <p>Descuento Amazon: No disponible</p>
+            <p>Descuento Steam: No disponible</p>
+        </div>
+        
+            </div>
+            <button class="button" onclick="volverPaginaPrincipal()">Volver a la página principal</button>
+        </div>
+
+
+
+
+
+    </body>
+    </html>
+    

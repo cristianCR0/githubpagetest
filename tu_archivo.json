@@ -1,0 +1,16 @@
+{
+    "forza motorsport": {
+        "nombre": "forza motorsport",
+        "duracion": "35 Hours",
+        "puntuacion": "85",
+        "precio1": null,
+        "precio2": null
+    },
+    "grand theft auto v": {
+        "nombre": "grand theft auto v",
+        "duracion": "82 Hours",
+        "puntuacion": "97",
+        "precio1": null,
+        "precio2": null
+    }
+}

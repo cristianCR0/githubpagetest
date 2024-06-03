@@ -1,0 +1,68 @@
+{
+    "Sea of Thieves": {
+        "nombre": "Sea of Thieves",
+        "duracion": "",
+        "puntuacion": null,
+        "precio1": null,
+        "precio2": null,
+        "descuento1": null,
+        "descuento2": null,
+        "precioox": null,
+        "cover_url": ""
+    },
+    "Rust": {
+        "nombre": "Rust",
+        "duracion": "",
+        "puntuacion": null,
+        "precio1": null,
+        "precio2": null,
+        "descuento1": null,
+        "descuento2": null,
+        "precioox": null,
+        "cover_url": ""
+    },
+    "Terraria": {
+        "nombre": "Terraria",
+        "duracion": "",
+        "puntuacion": null,
+        "precio1": null,
+        "precio2": null,
+        "descuento1": null,
+        "descuento2": null,
+        "precioox": null,
+        "cover_url": ""
+    },
+    "Red Dead Redemption 2": {
+        "nombre": "Red Dead Redemption 2",
+        "duracion": "",
+        "puntuacion": null,
+        "precio1": null,
+        "precio2": null,
+        "descuento1": null,
+        "descuento2": null,
+        "precioox": null,
+        "cover_url": ""
+    },
+    "Subnautica": {
+        "nombre": "Subnautica",
+        "duracion": "",
+        "puntuacion": null,
+        "precio1": null,
+        "precio2": null,
+        "descuento1": null,
+        "descuento2": null,
+        "precioox": null,
+        "cover_url": ""
+    },
+    "Elden Ring": {
+        "nombre": "Elden Ring",
+        "duracion": "",
+        "puntuacion": null,
+        "precio1": null,
+        "precio2": null,
+        "descuento1": null,
+        "descuento2": null,
+        "precioox": null,
+        "cover_url": ""
+    }
+}
